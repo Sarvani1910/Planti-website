@@ -1,0 +1,84 @@
+:root {
+  --PrimaryColor: #528e25;
+  --HoverColor: #bdf094;
+  --paleGreen: #dff8ce;
+  --whiteColor: white;
+  --blackColor: #2e2e2e;
+  --textColor: #79797c;
+  --bgColor: #eeeff1;
+  --greyColor: #bebebe;
+  --inputColor: #f8f6f7;
+  --itemCardColor: #dfe2df;
+  --itemCardHover: #d5e7d5;
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: .938rem;
+  --smallFontSize: .813rem;
+  --SmallestFontSize: .75rem;
+}
+
+.activitySection {
+  flex-basis: 50%;
+}
+
+.activitySection .heading {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.activitySection .heading h1 {
+  font-size: var(--h2FontSize);
+  color: var(--blackColor);
+  font-weight: 700;
+}
+
+.activitySection .heading .btn {
+  border: 1px solid transparent;
+}
+
+.activitySection .heading .btn:hover {
+  border: 1px solid var(--PrimaryColor);
+}
+
+.activitySection .setContainer {
+  margin-top: 3rem;
+}
+
+.activitySection .setContainer .singleCustomer {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.activitySection .setContainer .singleCustomer img {
+  width: 50px;
+  height: 10px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px var(--itemCardColor);
+  margin-right: 1rem;
+}
+
+.activitySection .setContainer .singleCustomer .customerDetails {
+  flex: 1;
+}
+
+.activitySection .setContainer .singleCustomer .customerDetails .name {
+  font-size: var(--h3FontSize);
+  font-weight: 600;
+  color: var(--blackColor);
+  display: block;
+}
+
+.activitySection .setContainer .singleCustomer .customerDetails small {
+  font-weight: 600;
+  color: var(--textColor);
+  font-size: var(--SmallestFontSize);
+}
+
+.activitySection .setContainer .singleCustomer .duration {
+  color: var(--textColor);
+  font-weight: 500;
+  font-size: var(--smallFontSize);
+}
